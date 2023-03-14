@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(179, 179, 179);
+}
+section{
+    display: flex;
+    position: absolute;
+    margin: auto;
+    border-radius: 10px;
+    width: 550px;
+    height: 550px;
+    background-color: white;
+    z-index: 1;
+}
+img#model{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: auto;
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    z-index: 1;
+}
+h1#text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: auto;
+    margin-left: 210px;
+    margin-top: 300px;
+    animation:textC 5s ease infinite;
+}
+@keyframes textC{
+    0%{
+        color: green;
+    }
+    50%{
+        color: greenyellow;
+    }
+    100%{
+        color: green    ;
+    }
+}
+p#parag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin: auto;
+    margin-left: 220px;
+    margin-top: 335px;
+    font-size: medium;
+}
+    
